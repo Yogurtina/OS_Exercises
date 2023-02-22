@@ -1,0 +1,1 @@
+cmd_/home/ioanna/Documents/Semester9/OS/Module_Ex/processes/list-processes.mod := printf '%s\n'   list-processes.o | awk '!x[$$0]++ { print("/home/ioanna/Documents/Semester9/OS/Module_Ex/processes/"$$0) }' > /home/ioanna/Documents/Semester9/OS/Module_Ex/processes/list-processes.mod

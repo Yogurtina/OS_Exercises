@@ -1,0 +1,1 @@
+cmd_/home/ioanna/Documents/Semester9/OS/Module_Ex/hello-world/hello.mod := printf '%s\n'   hello.o | awk '!x[$$0]++ { print("/home/ioanna/Documents/Semester9/OS/Module_Ex/hello-world/"$$0) }' > /home/ioanna/Documents/Semester9/OS/Module_Ex/hello-world/hello.mod
